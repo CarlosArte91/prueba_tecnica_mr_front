@@ -1,0 +1,24 @@
+.container {
+    border: solid 0.1vw grey;
+    border-radius: 0.6vw;
+    padding: 0.8vw;
+    margin-right: 7vw;
+    display: grid;
+    grid-template-columns: 6vw 6vw;
+    grid-template-rows: 3vw repeat(2, 2vw);
+    justify-items: center;
+    font-size: 1.3vw; 
+}
+
+.container input {
+    width: 1.5vw;
+}
+
+.container p {
+    margin: 0;
+    font-size: 1.4vw;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}

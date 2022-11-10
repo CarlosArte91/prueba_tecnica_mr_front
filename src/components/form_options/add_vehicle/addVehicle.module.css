@@ -1,0 +1,51 @@
+.container {
+    margin: 4%;
+}
+
+.container h3 {
+    font-size: 1.5vw;
+    margin-bottom: 1%;
+}
+
+.form select {
+    border: none;
+    font-size: 1.1vw;
+    width: 9.9vw;
+    height: 4vw;
+    padding: 2%;
+    margin-top: 4%;
+    color: #19229d;
+}
+
+.form select:focus {
+    outline: none;
+}
+
+.radiusLeft {
+    border-radius: 1.5vw 0 0 1.5vw;
+}
+
+.radiusRight {
+    border-radius: 0 1.5vw 1.5vw 0;
+}
+
+.add {
+    font-size: 1.3vw;
+    margin-top: 7%;
+    margin-bottom: 0.5vw;
+    background-color: #19229d;
+    color: white;
+    border: solid 0.1vw #19229d;
+    border-radius: 1.5vw;
+    width: 8vw;
+    padding: 2%;
+    cursor: pointer;
+    transition: 200ms;
+    margin-left: 31.5vw;
+}
+
+.add:hover {
+    background-color: white;
+    color: #19229d;
+    transition: 200ms;
+}

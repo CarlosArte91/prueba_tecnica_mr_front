@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { useSelector } from "react-redux";
+
+import Form from "./components/form";
+import Navbar from './components/navbar';
+
+import styleApp from "./App.module.css";
 
 function App() {
+  const openCloseForm = useSelector(state => state.openCloseForm);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styleApp.container}>
+      <Navbar/>
+      {openCloseForm && <div className={styleApp.formVehicle}><Form/></div>} 
     </div>
   );
-}
+};
 
 export default App;

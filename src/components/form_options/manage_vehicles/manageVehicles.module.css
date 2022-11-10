@@ -1,0 +1,99 @@
+.container {
+    margin: 4%;
+}
+
+.container h3 {
+    font-size: 1.5vw;
+    margin-bottom: 1%;
+}
+
+.item {
+    border-radius: 1.6vw;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2.3vw;
+    place-content: center;
+    font-size: 1.2vw;
+    width: 29vw;
+    height: 2vw;
+    padding: 2% 4%;
+    margin-top: 4%;
+    margin-right: 1.5vw;
+    color: #19229d;
+}
+
+.add {
+    font-size: 1.3vw;
+    margin-top: 4%;
+    background-color: #19229d;
+    color: white;
+    border: solid 0.1vw #19229d;
+    border-radius: 1.5vw;
+    width: 8vw;
+    padding: 2%;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.add:hover {
+    background-color: white;
+    color: #19229d;
+    transition: 200ms;
+}
+
+.new {
+    border-radius: 1.6vw;
+    background-color: white;
+    border: none;
+    font-size: 1.4vw;
+    width: 26vw;
+    height: 3.5vw;
+    margin-top: 4%;
+    color: #19229d;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.new:hover {
+    background-color: #19229d;
+    color: white;
+    transition: 200ms;
+}
+
+.subcontainer {
+    display: flex;
+}
+
+.subcontainer span {
+    border-radius: 1.6vw;
+    background-color: white;
+    border: none;
+    width: 5vw;
+    height: 3.5vw;
+    margin-top: 4%;
+    cursor: pointer;
+    transition: 200ms;
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+.subcontainer span:hover {
+    background-color: #858cec;
+    transition: 200ms;
+}
+
+.subcontainer img {
+    width: 35%;
+    height: 53%;
+}
+
+.down {
+    width: 38.6vw;
+    height: 5vw;
+    display: flex;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+    gap: 5vw;
+    place-content: center;
+}
